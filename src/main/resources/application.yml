@@ -1,0 +1,12 @@
+server:
+  port: 1369
+
+spring:
+  application:
+    name: sackcloth
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/sackcloth
+    username: root
+    password: 123456
+    driverClassName: com.mysql.cj.jdbc.Driver
+
