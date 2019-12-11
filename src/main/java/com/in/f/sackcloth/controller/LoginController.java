@@ -1,5 +1,6 @@
 package com.in.f.sackcloth.controller;
 
+import com.in.f.sackcloth.common.Result;
 import com.in.f.sackcloth.dto.SysUserDTO;
 import com.in.f.sackcloth.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,9 +20,10 @@ public class LoginController {
     private LoginService loginService;
 
     @RequestMapping(value = "/in" ,method = RequestMethod.POST)
-    public String Login(@RequestBody SysUserDTO user, HttpServletRequest request){
+    public Result Login(@RequestBody SysUserDTO user, HttpServletRequest request){
+        Boolean login = loginService.login(user, request);
 
-        return "hello word!";
+        return Result.success(login);
     }
 
 }

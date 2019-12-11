@@ -1,0 +1,24 @@
+@media -sass-debug-info{filename{font-family:tjsj\.scss}line{font-family:\000031}}
+.intNav {
+  width: 124px;
+  text-align: center;
+  height: 26px; }
+
+@media -sass-debug-info{filename{font-family:tjsj\.scss}line{font-family:\000037}}
+.actives {
+  background: url("../../images/intNavpic1.png") no-repeat bottom center; }
+
+@media -sass-debug-info{filename{font-family:tjsj\.scss}line{font-family:\0000310}}
+.small-text {
+  color: #999;
+  font-size: 12px; }
+
+@media -sass-debug-info{filename{font-family:tjsj\.scss}line{font-family:\0000314}}
+.page-margin {
+  margin: 26px 0.26vw;
+  color: #999999; }
+.wrapbox{
+  width: 90%;
+  margin: 0 auto;
+  padding: 25px 10px;
+}

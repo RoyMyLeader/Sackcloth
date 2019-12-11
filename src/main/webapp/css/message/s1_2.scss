@@ -1,0 +1,1377 @@
+@import "public";
+
+$background_while: #162e64;
+$background01: #ffffff;
+$color_while: #ffffff;
+$background_job: #52658e;
+#top_right_content {
+  width: 100%;
+  height: 100%;
+  padding: 30px 0 0 0;
+  background: $background_while;
+  @include border-radius;
+}
+
+.top_left_content {
+  width: 100%;
+  height: 100%;
+  padding: 2% 10px 5% 15px;
+  margin: 0;
+  background: $background_while;
+  @include border-radius;
+}
+
+.bottom_right_content {
+  width: 100%;
+  height: 100%;
+  padding: 30px 20px 10px 20px;
+  margin: 0;
+  background: $background_while;
+  @include border-radius;
+}
+
+.topcenflex {
+  width: 100%;
+  padding: 7% 10px 5% 15px;
+  margin: 0;
+  background: $background_while;
+  @include border-radius;
+  height: inherit;
+  flex-direction: column;
+  display: flex;
+  display: -webkit-flex;
+}
+
+.indmk {
+  flex: 1;
+  -webkit-flex: 1;
+  background: $background_while;
+  box-shadow: $box-shadow;
+  @include border-radius01;
+  padding: 10px 15px 10px 15px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.indmktit {
+  text-align: center;
+  color: $color_while;
+  font-size: 13px;
+  line-height: 30px;
+  padding: 0 0 10px 0;
+}
+
+.indmk span {
+  color: $color_while;
+}
+
+.indmknr01 {
+  color: #f8d74b;
+  font-size: 20px;
+  background: url(../ls_images/ind01.png) no-repeat 10% center;
+  text-align: center;
+  padding-left: 10%;
+}
+
+.indmknr02 {
+  color: #80d083;
+  font-size: 20px;
+  background: url(../ls_images/ind02.png) no-repeat 10% center;
+  text-align: center;
+  padding-left: 10%;
+}
+
+.indmknr03 {
+  color: #59c5e9;
+  font-size: 20px;
+  background: url(../ls_images/ind03.png) no-repeat 10% center;
+  text-align: center;
+  padding-left: 10%;
+}
+
+.indmknr04 {
+  color: #9c89d5;
+  font-size: 20px;
+  background: url(../ls_images/ind04.png) no-repeat 10% center;
+  text-align: center;
+  padding-left: 10%;
+}
+
+.slidings {
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  background: #2e4374;
+}
+
+.slidings li a {
+  display: block;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  float: left;
+  color: $color_while;
+  font-family: $font-family;
+  font-size: $font-size;
+}
+
+.slidnr {
+  width: 100%;
+  margin: 0;
+  position: $position01;
+  left: 0;
+  top: 11px;
+  padding: 15px 15px;
+  color: $color_while;
+}
+
+#bottom_left_content {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: $background_while;
+  @include border-radius;
+}
+
+.twoslidings {
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  background: #2e4374;
+}
+
+.twoslidnr {
+  width: 100%;
+  margin: 0;
+  position: $position01;
+  left: 0;
+  top: 11px;
+  padding: 15px 15px;
+  color: $color_while;
+}
+
+.tabletit table tr th {
+  height: 35px;
+  text-align: center;
+  color: $color_while;
+  font-family: $font-family;
+  font-size: $font-size;
+}
+
+.tablelist table tr td {
+  height: 25px;
+  text-align: center;
+  color: $color_while;
+  font-family: $font-family;
+  font-size: $font-size;
+}
+
+.main_tabletop01 {
+  height: 30px;
+  position: $position;
+  width: 100%;
+  right: 0;
+  top: 0;
+  cursor: move;
+  z-index: 999;
+  background: #2e4374;
+}
+
+.main_tabletop02 {
+  height: 30px;
+  line-height: 30px;
+  color: $color_while;
+  padding: 0 10px;
+  position: $position;
+  width: 100%;
+  right: 0;
+  top: 0;
+  cursor: move;
+  z-index: 999;
+  background: #2c447d;
+}
+
+.tabtop_rt {
+  float: right;
+  display: block;
+  width: 14px;
+  height: 14px;
+  background: url("../ls_images/indexImg.png") -160px 0 no-repeat;
+  cursor: pointer;
+  margin: 8px 8px 0 0
+}
+
+.floattool .layer_nav .icon {
+  background: url(../ls_images/indexImg.png) -495px 0 no-repeat
+}
+
+.floattool .table_nav .icon {
+  background: url(../ls_images/indexImg.png) -517px 0 no-repeat
+}
+
+.floattool .graphic_nav .icon {
+  background: url(../ls_images/indexImg.png) -473px 0 no-repeat
+}
+
+.floattool .time_nav .icon {
+  background: url(../ls_images/indexImg.png) -451px 0 no-repeat
+}
+
+.nrimg01 {
+  width: 35px;
+  height: 35px;
+  background: url(../ls_images/img01.png) no-repeat center;
+}
+
+.nrimg02 {
+  width: 35px;
+  height: 35px;
+  background: url(../ls_images/img02.png) no-repeat center;
+}
+
+.nrimg03 {
+  width: 35px;
+  height: 35px;
+  background: url(../ls_images/img03.png) no-repeat center;
+}
+
+.nrimg04 {
+  width: 35px;
+  height: 35px;
+  background: url(../ls_images/img04.png) no-repeat center;
+}
+
+.divimg {
+  position: $position;
+  top: 30px;
+  background: url(../ls_images/jiao.png) no-repeat top center;
+  padding: 8px 0 0 0;
+}
+
+.divimg04 {
+  left: 50px;
+  background: url(../ls_images/jiao.png) no-repeat 60px top;
+}
+
+/*导航效果*/
+.clul li a {
+  display: block;
+  height: 45px;
+  line-height: 45px;
+  color: $color_while;
+  cursor: pointer;
+  padding-left: 25px;
+}
+
+.clul li a:hover, .clul li a.hover {
+  color: $color_while;
+  text-decoration: none;
+}
+
+.clul li .p_h li a {
+  color: $color_while;
+  height: 35px;
+  line-height: 35px;
+  font-size: $font-size;
+}
+
+.clul li.liimg01 {
+  background: url(../ls_images/nar01.png) no-repeat left 12px;
+}
+
+.clul li.liimg02 {
+  background: url(../ls_images/nar02.png) no-repeat left 12px;
+}
+
+.clul li.liimg03 {
+  background: url(../ls_images/nar03.png) no-repeat left 12px;
+}
+
+.clul li.liimg04 {
+  background: url(../ls_images/nar04.png) no-repeat left 12px;
+}
+
+.clul li.liimg05 {
+  background: url(../ls_images/nar05.png) no-repeat left 12px;
+}
+
+.clul li.liimg06 {
+  background: url(../ls_images/nar06.png) no-repeat left 12px;
+}
+
+.clul li.liimg07 {
+  background: url(../ls_images/nar07.png) no-repeat left 12px;
+}
+
+.clul li.liimg08 {
+  background: url(../ls_images/nar08.png) no-repeat left 12px;
+}
+
+.clul li.liimg09 {
+  background: url(../ls_images/nar09.png) no-repeat left 12px;
+}
+
+.clul li.liimg10 {
+  background: url(../ls_images/nar10.png) no-repeat left 12px;
+}
+
+.clul li.liimg11 {
+  background: url(../ls_images/nar11.png) no-repeat left 12px;
+}
+
+.clul li.liimg12 {
+  background: url(../ls_images/nar12.png) no-repeat left 12px;
+}
+
+.allout {
+  width: 203px;
+  position: $position;
+  background: $background_while;
+  padding: 85px 0 0 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  box-shadow: 0 0 16px #e4e3e3;
+  animation: mymove 500ms ease-in-out 1;
+  -webkit-animation: mymove 500ms ease-in-out 1;
+  filter: alpha(opacity=90);
+  -moz-opacity: 0.9;
+  opacity: 0.9;
+}
+
+.narbtn {
+  width: 36px;
+  height: 36px;
+  background: url(../ls_images/narbj.png) no-repeat center;
+  position: $position;
+  left: 20px;
+  top: 20px;
+  z-index: 10009;
+  cursor: pointer;
+}
+
+.allin {
+  width: 203px;
+  position: absolute;
+  background: $background_while;
+  padding: 85px 0 0 0;
+  top: 0;
+  bottom: 0;
+  box-shadow: 0 0 16px #e4e3e3;
+  animation: mymove01 300ms ease-in-out 1;
+  -webkit-animation: mymove01 300ms ease-in-out 1;
+}
+
+.tlspan {
+  width: 50%;
+  float: left;
+  line-height: 30px;
+  font-size: $font-size;
+  color: $color_while;
+  font-family: $font-family;
+}
+
+.tlsj {
+  padding: 5px 10px 0 10px;
+  font-size: $font-size;
+  color: $color_while;
+  font-family: $font-family;
+}
+
+/*空间查询*/
+.spatop {
+  display: flex;
+  display: -webkit-flex;
+  width: 100%;
+  color: $color_while;
+  padding: 15px 12px;
+  margin: 0;
+  background: #001c62;
+  box-shadow: $box-shadow;
+  @include border-radius;
+}
+
+.stleft {
+  flex: 1;
+  -webkit-flex: 1;
+  width: 30%;
+  float: left;
+  border: 1px solid #d8dbdf;
+  height: 30px;
+  line-height: 30px;
+  @include border-radius01;
+  background: url(../ls_images/spajiao.png) no-repeat 88% center;
+  padding: 0 0 0 15px;
+}
+
+.stcenter {
+  flex: 2;
+  -webkit-flex: 2;
+  width: 45%;
+  float: left;
+  margin-left: 10px;
+  border: 1px solid #d8dbdf;
+  height: 30px;
+  @include border-radius;
+  color: $color_while;
+  background: url(../ls_images/serch.png) no-repeat 95% center;
+}
+
+.stinput {
+  width: 83%;
+  background: #001c62;
+  border: none;
+  height: 26px;
+  line-height: 26px;
+  text-indent: 6px;
+  margin-left: 10px;
+  outline: none;
+  color: $color_while;
+}
+
+.spanleft {
+  flex: 13;
+  -webkit-flex: 13;
+  padding: 0;
+  font-size: $font-size;
+  color: $color_while;
+  font-family: $font-family;
+}
+
+.spanright {
+  flex: 1;
+  -webkit-flex: 1;
+  background: url(../ls_images/address.png) no-repeat left 5px;
+  cursor: pointer;
+}
+
+.spabottom {
+  width: 100%;
+  padding: 15px 12px;
+  z-index: 10000;
+  margin-top: 26px;
+  background: $background_while;
+  box-shadow: $box-shadow;
+  @include border-radius;
+}
+
+.shengleft {
+  flex: 1.5;
+  -webkit-flex: 1.5;
+  font-size: $font-size01;
+  color: $color_while;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.cbfclose {
+  width: 20%;
+  font-size: 30px;
+  color: #999999;
+  position: $position;
+  top: -15px;
+  right: 10px;
+  text-align: right;
+  color: $color_while;
+}
+
+.cbs1 li {
+  flex: 1;
+  -webkit-flex: 1;
+  cursor: pointer;
+  text-align: center;
+  color: $color_while;
+  font-size: 13px;
+  height: 35px;
+  line-height: 35px;
+  font-family: $font-family;
+}
+
+.boxs .content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background: $background_while;
+  box-sizing: border-box;
+  color: $color_while;
+}
+
+/*预警分析*/
+.wardivtab table {
+  border: 1px solid #ccc;
+  color: $color_while;
+  font-size: $font-size;
+}
+
+.warlist table {
+  border: 1px solid #ccc;
+  border-top: 0;
+  text-align: center;
+  color: $color_while;
+  font-size: $font-size;
+}
+
+.wardivleft {
+  width: 100%;
+  box-shadow: $box-shadow;
+  @include border-radius01;
+  padding: 8px 12px;
+  background: $background_while url(../ls_images/spajiao.png) no-repeat 95% center;
+  font-size: $font-size01;
+  color: $color_while;
+  cursor: pointer;
+}
+
+.wardivright {
+  box-shadow: $box-shadow;
+  @include border-radius01;
+  padding: 8px 12px;
+  background: $background_while url(../ls_images/spajiao.png) no-repeat 95% center;
+  font-size: $font-size01;
+  color: $color_while;
+  cursor: pointer;
+}
+
+.warright {
+  width: 100%;
+  position: $position;
+  left: 0;
+  top: 50px;
+  box-shadow: $box-shadow;
+  @include border-radius01;
+  padding: 10px 12px;
+  background: $background_while;
+  z-index: 10099;
+  color: $color_while;
+}
+
+.mktit {
+  text-align: center;
+  color: $color;
+  font-size: 13px;
+  line-height: 26px;
+  padding: 0;
+}
+
+.mktit {
+  text-align: center;
+  color: $color_while;
+  font-size: 13px;
+  line-height: 26px;
+  padding: 0;
+}
+
+.mknr01 {
+  color: #f8d74b;
+  font-size: 20px;
+  background: url(../ls_images/war01.png) no-repeat 10% center;
+  text-align: center;
+  padding-left: 10%;
+}
+
+.mknr02 {
+  color: #80d083;
+  font-size: 20px;
+  background: url(../ls_images/war02.png) no-repeat 10% center;
+  text-align: center;
+  padding-left: 10%;
+}
+
+.mknr03 {
+  color: #59c5e9;
+  font-size: 20px;
+  background: url(../ls_images/war03.png) no-repeat 10% center;
+  text-align: center;
+  padding-left: 10%;
+}
+
+.mknr04 {
+  color: #9c89d5;
+  font-size: 20px;
+  background: url(../ls_images/war04.png) no-repeat 10% center;
+  text-align: center;
+  padding-left: 10%;
+}
+
+.prodiv {
+  display: none;
+  position: $position;
+  left: 5%;
+  top: 5%;
+  width: 16%;
+  color: $color_while;
+  background: $background_while;
+  z-index: 100002;
+  padding: 10px;
+  @include border-radius01;
+  box-shadow: $box-shadow;
+}
+
+.proleft {
+  flex: 0 0 195px;
+  -webkit-flex: 0 0 195px;
+  background: $background_while;
+  padding: 0;
+  filter: alpha(opacity=80);
+  @include opacity;
+  @include border-radius01;
+}
+
+.proright {
+  height: 100%;
+  padding: 0;
+  flex: 1;
+  -webkit-flex: 1;
+  background: $background_while;
+  filter: alpha(opacity=80);
+  @include opacity;
+  @include border-radius01;
+  margin-left: 20px;
+}
+
+.warmk {
+  background: $background_while;
+  box-shadow: $box-shadow;
+  @include border-radius01;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+}
+
+.war_right_content {
+  background: $background_while;
+  width: 100%;
+  height: 100%;
+  padding: 40px 20px 0 20px;
+  margin: 0;
+  @include border-radius;
+}
+
+/*属性查询*/
+.treetit {
+  color: $color_while;
+  font-family: $font-family;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  line-height: 50px;
+}
+
+.oneli a {
+  display: block;
+  padding: 5px 0 5px 20%;
+  color: $color_while;
+  font-size: $font-size01;
+  text-decoration: none;
+  font-family: $font-family;
+  cursor: pointer;
+}
+
+.oneli a.hoverclose {
+  background: url("../ls_images/treeup01.png") no-repeat 90% 15px;
+  color: $color_while;
+  text-decoration: none;
+}
+
+.oneli a.hover {
+  text-decoration: none;
+  color: $color_while;
+  background: url("../ls_images/treedown01.png") no-repeat 90% 15px;
+}
+
+.oneli .twoli a.closedown {
+  background: url("../images/treedown02.png") no-repeat 90% 15px;
+  color: $color-li;
+}
+
+.oneli .twoli a.hover {
+  background: url("../images/treeup02.png") no-repeat 90% 15px;
+  color: $color-li;
+}
+
+.threeli a.hoverclose {
+  background: url("../images/treeup01.png") no-repeat 90% 15px;
+  color: $color_while;
+  text-decoration: none;
+}
+
+.threeli a.hover {
+  text-decoration: none;
+  color: $color_while;
+  background: url("../images/treedown01.png") no-repeat 90% 15px;
+}
+
+.navfh {
+  width: 20%;
+  position: $position;
+  right: 5px;
+  top: 0;
+  font-size: 26px;
+  color: $color_while;
+  z-index: 10090;
+  text-align: right;
+  cursor: pointer;
+}
+
+.fbfput {
+  flex: 5;
+  -webkit-flex: 5;
+  height: 38px;
+  line-height: 38px;
+  border: 1px solid #e0e0e0;
+  @include border-radius01;
+  margin-right: 10px;
+  text-indent: 12px;
+  color: $color_while;
+  background: #162e64;
+}
+
+.btnput {
+  flex: 1;
+  -webkit-flex: 1;
+  border: 1px solid #e0e0e0;
+  @include border-radius01;
+  background: url("../ls_images/serch.png") no-repeat center;
+}
+
+.gjcxbtnput {
+  flex: 2;
+  -webkit-flex: 2;
+  border: 1px solid #e0e0e0;
+  @include border-radius01;
+  margin-right: 5px;
+  background: none;
+  color: $color_while;
+}
+
+.protabtit {
+  background: #52658e;
+  height: 45px;
+}
+
+.protabtit table tr th {
+  text-align: center;
+  line-height: 45px;
+  color: $color-blue;
+  font-size: $font-size;
+}
+
+.protabtit table tr th {
+  text-align: center;
+  line-height: 45px;
+  color: #87baff;
+  font-size: $font-size;
+}
+
+.protablist table tr td {
+  color: $color_while;
+  font-size: $font-size;
+}
+
+/*对比分析*/
+.comparbottom {
+  flex: 1;
+  -webkit-flex: 1;
+  margin-top: 15px;
+  background: #405583;
+  padding: 10px 15px;
+  box-shadow: $box-shadow;
+  @include border-radius01;
+}
+
+.cptbot {
+  background: #405583;
+  padding: 0;
+  box-shadow: $box-shadow;
+  @include border-radius01;
+}
+
+.cptbtab table {
+  background: #536690;
+  border: 1px solid #66779c;
+}
+
+.cptbtab table tr th {
+  text-align: center;
+  line-height: 32px;
+  color: #c1d3ff;
+  font-size: $font-size;
+}
+
+.cptblist table tr td {
+  text-align: center;
+  line-height: 35px;
+  color: $color_while;
+  font-size: $font-size;
+}
+
+.sjtjt {
+  color: $color_while;
+  font-family: $font-family;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.warbtn {
+  width: 90%;
+  box-shadow: $box-shadow;
+  @include border-radius01;
+  padding: 8px 12px;
+  background: $background_while;
+  font-size: $font-size01;
+  color: $color_while;
+  cursor: pointer;
+  border: 0;
+  margin-left: 10px;
+}
+
+:-moz-placeholder {
+  color: $color_while;
+  font-size: $font-size;
+}
+
+::-moz-placeholder {
+  color: $color_while;
+  font-size: $font-size;
+}
+
+input:-ms-input-placeholder {
+  color: $color_while;
+  font-size: $font-size;
+}
+
+input::-webkit-input-placeholder {
+  color: $color_while;
+  font-size: $font-size;
+}
+
+/*结构分析*/
+.structnr {
+  width: 100%;
+  height: 100%;
+  padding: 35px 10px 10px 10px;
+  margin: 0;
+  background: url("../images/stru01.png") no-repeat 20px 35px;
+}
+
+.structbot {
+  width: 100%;
+  height: 100%;
+  padding: 35px 10px 10px 10px;
+  margin: 0;
+  background: url("../images/stru02.png") no-repeat 40px 35px;
+}
+
+.stru_main_tabletop {
+  height: 30px;
+  position: $position;
+  width: 0;
+  right: 0;
+  top: 60px;
+  cursor: move;
+  z-index: 999;
+  background: #2e4374;
+}
+
+/*趋势分析*/
+.swipertime {
+  z-index: 10000;
+  position: $position;
+  background: #536690;
+  width: 25%;
+  height: 5%;
+  left: 42%;
+  bottom: 5%;
+  cursor: move;
+  display: block;
+  box-shadow: $box-shadow;
+  filter: alpha(opacity=80);
+  @include opacity;
+  @include border-radius01;
+  padding: 5px 0;
+}
+
+/*区域分层汇总*/
+.regul {
+  width: 100%;
+  height: 40px;
+  padding: 5px 0 0 0;
+  background: #536690;
+}
+
+.regul li {
+  float: left;
+  width: 15%;
+  cursor: pointer;
+  text-align: center;
+  color: $color_while;
+  font-size: 13px;
+  height: 30px;
+  line-height: 30px;
+  font-family: $font-family;
+}
+
+.regslidnr {
+  width: 100%;
+  margin: 0;
+  position: $position01;
+  left: 0;
+  top: 0;
+  padding: 0;
+  color: $color_while;
+}
+
+.tablelist table tr td {
+  text-align: center;
+  line-height: 30px;
+  color: $color_while;
+  font-size: 14px;
+}
+
+/*基础数据汇总*/
+.sumtable table tr th {
+  text-align: center;
+  line-height: 35px;
+  color: $color_while;
+  font-size: $font-size;
+}
+
+.sumlist table tr td {
+  text-align: center;
+  line-height: 35px;
+  color: $color_while;
+  font-size: $font-size;
+}
+
+.sumdivright {
+  @include border-radius01;
+  padding: 8px 12px;
+  background: #536690 url(../ls_images/spajiao.png) no-repeat 95% center;
+  font-size: $font-size01;
+  cursor: pointer;
+}
+
+.sumall {
+  width: 100%;
+  padding: 20px;
+  background: $background_while url("../images/sum01.png") no-repeat;
+  background-size: 100% 100%;
+  min-height: 550px;
+}
+
+.bzbtn {
+  flex: 1;
+  -webkit-flex: 1;
+  width: 90%;
+  @include border-radius01;
+  padding: 8px 12px;
+  background: #536690;
+  font-size: $font-size01;
+  cursor: pointer;
+  border: 0;
+  margin-left: 10px;
+}
+
+/*土地承包业务汇总*/
+.statistitle {
+  color: $color_while;
+  background: #536690;
+  font-family: $font-family;
+  font-size: $font-size01;
+  padding: 12px 15px;
+}
+
+.statopleft {
+  flex: 1;
+  -webkit-flex: 1;
+  background: url("../ls_images/sta01.png") no-repeat;
+  background-size: contain;
+}
+
+.statopright {
+  flex: 1;
+  -webkit-flex: 1;
+  background: url("../ls_images/sta02.png") no-repeat;
+  background-size: contain;
+}
+
+.stabotleft {
+  flex: 1;
+  -webkit-flex: 1;
+  background: url("../ls_images/sta03.png") no-repeat;
+  background-size: contain;
+}
+
+.stabotright {
+  flex: 1;
+  -webkit-flex: 1;
+  background: url("../ls_images/sta04.png") no-repeat;
+  background-size: contain;
+}
+
+/*合同网签监管*/
+.htoptionleft {
+  width: 100%;
+  box-shadow: $box-shadow;
+  @include border-radius01;
+  color: $color_while;
+  padding: 8px 12px;
+  background: $background_while url(../ls_images/spajiao.png) no-repeat 95% center;
+  font-size: $font-size01;
+  cursor: pointer;
+}
+
+.httitle {
+  color: $color_while;
+  background: #536690;
+  font-family: $font-family;
+  font-size: $font-size01;
+  padding: 12px 15px;
+  text-align: right;
+}
+
+.httable table th {
+  text-align: center;
+  color: #c1d3ff;
+}
+
+.httable table td {
+  text-align: center;
+  color: $color_while;
+}
+
+.htmk {
+  flex: 1;
+  -webkit-flex: 1;
+  background: $background_while;
+  box-shadow: $box-shadow;
+  @include border-radius01;
+  padding: 5px 15px 5px 15px;
+  margin-right: 20px;
+}
+
+.htrtop {
+  flex: 1;
+  -webkit-flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: $background_while;
+  padding: 0;
+  filter: alpha(opacity=80);
+  @include opacity;
+  @include border-radius01;
+  box-shadow: $box-shadow;
+}
+
+.htrbottom {
+  flex: 1;
+  -webkit-flex: 1;
+  height: 100%;
+  background: $background_while;
+  padding: 0;
+  filter: alpha(opacity=80);
+  @include opacity;
+  @include border-radius01;
+  box-shadow: $box-shadow;
+  margin-top: 20px;
+}
+
+/*服务平台*/
+.pub_titleft {
+  float: left;
+  display: inline;
+  font-size: 14px;
+  color: $color_while;
+  font-family: $font-family;
+  margin-left: 3px;
+}
+
+.pub_dw {
+  overflow: hidden;
+  color: $color_while;
+  font-size: $font-size;
+  margin-top: 10px;
+  float: left;
+  width: 100%;
+}
+
+.pub_titrt a {
+  color: $color_while;
+  font-size: 14px;
+  font-family: $font-family;
+  cursor: pointer;
+}
+
+.list-group-item a {
+  color: $color_while;
+  font-size: 14px;
+  font-family: $font-family;
+  margin-left: 3px;
+}
+
+.categorys span.themeZY {
+  background: #52658e none repeat scroll 0 0;
+  color: $color_while;
+}
+
+.list-group-item.text-center.showmore {
+  color: #ffffff;
+  padding-left: 30px;
+  background: #52658e;
+}
+
+/*典型案例*/
+.dxcont {
+  width: 100%;
+  @include border-radius;
+  box-shadow: $box-shadow;
+  background: #162e64;
+  @include opacity;
+}
+
+.dxtop {
+  background: #536690;
+  color: $color_while;
+  font-size: 14px;
+  padding: 15px 30px;
+  line-height: 20px;
+}
+
+.dxbottom {
+  padding: 0 0 0 30px;
+}
+
+.listli {
+  display: flex;
+  display: -webkit-flex;
+  border-bottom: 1px solid #eceef0;
+  padding: 25px 0 25px 0;
+}
+
+.listleft {
+  flex: 1;
+  -webkit-flex: 1;
+  padding-right: 15px;
+}
+
+.listright {
+  flex: 4;
+  -webkit-flex: 4;
+  position: relative;
+  padding-right: 30px;
+}
+
+.listtit {
+  color: $color_while;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 0;
+  margin: 0;
+}
+
+.listtit a {
+  color: $color_while;
+}
+
+.listtit a:hover {
+  color: $color_hover;
+  text-decoration: none;
+}
+
+.listxq {
+  color: $color_while;
+  font-size: $font-size;
+  line-height: 22px;
+  padding: 12px 0 0 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+}
+
+.listsee {
+  color: $color_while;
+  font-size: $font-size;
+  line-height: 22px;
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  right: 30px;
+}
+
+.seetime {
+  float: left;
+  display: inline-block;
+}
+
+.seeyd {
+  float: right;
+  display: inline-block;
+}
+
+/*工作通知*/
+.jobslidings {
+  width: 100%;
+  height: 55px;
+  margin: 0;
+  padding: 0;
+  background: $background_job;
+}
+
+.jobslidnr {
+  width: 100%;
+  margin: 0;
+  position: $position01;
+  left: 0;
+  top: 0;
+  padding: 15px 15px;
+  color: $color;
+}
+
+.jobslidings li a {
+  display: block;
+  width: 100%;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  float: left;
+  color: $color_while;
+  font-family: $font-family;
+  font-size: 16px;
+}
+
+.jobslidings li a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.jobslidings li.hover a {
+  color: #c1d3ff;
+  text-decoration: none;
+}
+
+.sjfile {
+  width: 90px;
+  position: relative;
+  display: inline-block;
+  background: $background_job;
+  border: 0;
+  padding: 6px 12px;
+  overflow: hidden;
+  color: #ffffff;
+  text-decoration: none;
+  text-indent: 0;
+  line-height: 24px;
+  margin: 0;
+  @include border-radiusjob;
+  font-family: $font-family;
+}
+
+.sjfile:hover {
+  text-decoration: none;
+  color: $color_while;
+}
+
+.jobbtn {
+  width: 100%;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  margin-top: 6%;
+  border: 0;
+  @include border-radiusjob;
+  background: #52658e;
+  color: $color_while;
+  font-family: $font-family;
+}
+
+.jobspan {
+  color: $color_while;
+}
+
+.jobbuttn {
+  width: 23%;
+  background-color: $background_job;
+  border-color: $background_job;
+  height: 42px;
+  text-align: center;
+  color: $color_while;
+  font-size: $font-sizejob;
+}
+
+.jobemail {
+  color: $color_while;
+  font-size: $font-sizejob;
+  padding: 10px 0 20px 0;
+}
+
+.qxdiv {
+  border: 1px solid #cccccc;
+  @include border-radiusjob;
+  color: $color_while;
+}
+
+.table tr td {
+  color: $color_while;
+}
+
+.table th {
+  background: $background_job;
+  color: $color_while;
+}
+
+.quanx {
+  font-size: $font-sizejob;
+  padding: 10px 0;
+  color: $color_while;
+}
+
+.zhdl {
+  font-size: $font-sizejob;
+}
+
+.jobxq {
+  border-top: 1px dashed #dedede;
+  padding-top: 10px;
+}
+
+.jobxqnr {
+  border-top: 1px dashed #dedede;
+  padding-top: 10px;
+  line-height: 24px;
+}
+
+@import "media";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
